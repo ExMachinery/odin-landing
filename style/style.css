@@ -1,3 +1,4 @@
+/* ------------------- COMMON ------------------- */
 * {
     background-color: black;
     color: white;
@@ -13,10 +14,10 @@ a {
 }
 
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100vh; */
     font-family: Roboto, sans-serif;
     margin: 0px;
 }
@@ -25,13 +26,15 @@ body {
 header {
     display: flex;
     flex: 0 1 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
+    border-bottom: 1px solid #888a8d;
 }
 ul {
     display: flex;
     gap: 15px;
     background-color: #1F2937;
+    margin-right: 100px;
 }
 li {
     border: 2px solid #E5E7EB;
@@ -44,13 +47,67 @@ li {
     font-weight: 700;
     color: #F9FAF8;
     background-color: #1F2937;
+    margin-left: 100px;
 }
 
-/* ------------------- !!!CONTENT SECTION!!! ------------------- */
+/* ------------------- !!!CONTENT SECTION STARTED!!! ------------------- */
 .content {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+/* ------------------- TOP SECTION ------------------- */
+.top {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    /* gap: 100px; */
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+    background-color: #1F2937;
+}
+h1#t-header,
+p#t-header {
+    background-color: #1F2937;
+    padding: 0px;
+    margin: 5px;
 }
 
+h1#t-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+p#t-header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button#t-header {
+    margin: 12px 4px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: 800;
+}
+.m-img {
+    border: 2px solid #E5E7EB;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/* ------------------- ILLUSTRATION SECTION ------------------- */
+/* ------------------- QUOTE SECTION ------------------- */
+/* ------------------- BOTTOM SECTION ------------------- */
+/* ------------------- !!!CONTENT SECTION ENDED!!! ------------------- */
 
 /* ------------------- FOOTER ------------------- */
 footer {
