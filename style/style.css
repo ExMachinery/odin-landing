@@ -52,10 +52,10 @@ li {
 
 /* ------------------- !!!CONTENT SECTION STARTED!!! ------------------- */
 .content {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 /* ------------------- TOP SECTION ------------------- */
 .top {
@@ -107,6 +107,45 @@ button#t-header {
 /* ------------------- ILLUSTRATION SECTION ------------------- */
 /* ------------------- QUOTE SECTION ------------------- */
 /* ------------------- BOTTOM SECTION ------------------- */
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.sign-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    margin: 65px 65px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+}
+.box-text {
+    background-color: #3882F6;
+}
+h2#bbox,
+p#bbox {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    margin: 2px 0px;
+}
+h2#bbox {
+    font-size: 20px;
+}
+p#bbox {
+    font-size: 15px;
+}
+button#bbox {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
 /* ------------------- !!!CONTENT SECTION ENDED!!! ------------------- */
 
 /* ------------------- FOOTER ------------------- */
