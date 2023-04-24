@@ -106,12 +106,43 @@ button#t-header {
 }
 /* ------------------- ILLUSTRATION SECTION ------------------- */
 /* ------------------- QUOTE SECTION ------------------- */
+.quote,
+p#quote,
+p#author,
+.proxy-box {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+.proxy-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+p#quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 25px 0px 10px 0px;
+    padding: 0px 10px;
+    align-self: flex-start;
+}
+p#author {
+    font-size: 16px;
+    font-weight: 600;
+    align-self: flex-end;
+    margin: 10px 55px 25px 0px;
+}
 /* ------------------- BOTTOM SECTION ------------------- */
 .bot {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
 }
 .sign-box {
     background-color: #3882F6;
@@ -143,7 +174,9 @@ button#bbox {
     background-color: #3882F6;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
-    padding: 5px 10px
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* ------------------- !!!CONTENT SECTION ENDED!!! ------------------- */
